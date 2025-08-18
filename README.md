@@ -5,7 +5,7 @@
 
 East China Normal University
 
-<img src='asset/SAPD.jpg' width=700 />
+<img src='asset/SAPD.svg' width=900 />
 </div>
 
 ## SAPD
