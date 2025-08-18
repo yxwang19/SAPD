@@ -15,9 +15,12 @@ East China Normal University
 🎉 Welcome to SAPD, this is a comprehensive repository specializing in ***A Style-Aware Polytomous Diagnostic Model for Individual Traits*** published in ECAI 2025.
 
 
+## 🔔 Abstract
+Diagnostic models aim to precisely infer individuals' cognitive or non-cognitive competencies from their response logs, such as mathematical or social-emotional skills. While deep learning shows success in cognitive diagnosis, it remains underexplored in the equally important area of non-cognitive trait diagnosis. Accurate non-cognitive trait estimation is critical for individuals' development. Unlike cognitive assessments using right or wrong responses, non-cognitive trait assessments typically use subjective Likert-scale items with ordinal polytomous options to reflect latent trait levels. Furthermore, individual response styles, such as tendencies toward higher or lower options, introduce bias in trait inference, causing estimations that deviate from true trait levels. Thus, maintaining options ordinal semantic structure and mitigating the response style bias in trait estimation are two major challenges for accurate trait diagnosis. To address these issues, this paper proposes a Style-Aware Polytomous Diagnosis (SAPD) model. Specifically, to capture the ordinal semantics of response options, SAPD constructs an Ordinal Option Graph (OOG) that explicitly encodes the ordinal relationship among polytomous options, where higher options reflect higher latent trait levels. To mitigate the bias caused by individual response styles, we first design a Style-Aware Relational Graph (SARG), a heterogeneous graph that integrates multiple interactions among participants, items, options and traits, implicitly embedding response style information within node representations. We then propose a Response Style Corrector (RSC) that explicitly captures individual response tendencies and disentangles response style bias during trait diagnosis, allowing for dynamic and adaptive correction of trait levels. Extensive experiments on five real-world datasets show that SAPD improves accuracy by an average of 4% over competitive methods. Visualization confirms SAPD effectively disentangles response style effects, leading to more accurate and interpretable trait diagnosis.
 
-## Requirements
-Before run the SAPD,you need to install the following dependencies via pip or conda.
+
+
+## 📖 Requirements
 ```shell
 dgl==1.1.0+cu118
 numpy==2.2.5
@@ -33,22 +36,25 @@ EduCDM==0.0.13
 ```
 
 
-## Usage guide
-To run the SAPD,you need to enter the SAPD directory.  
-Unzip SAPD.zip, enter the directory named SAPD, and then execute the command in the terminal.  
-The following is a reference command. If you interested in other parameter of command,you can look into the ***main.py*** for more detail.
-```shell
-# Run on Suzhou dataset
-python main.py --exp_type=cdm --method=sapd --datatype=OECDSuzhou --test_size=0.2 --seed=0 --device=cuda:0 --epoch=10 --batch_size=1024 --lr=0.003 --option_num=5
-# Run on Houston dataset
-python main.py --exp_type=cdm --method=sapd --datatype=OECDHouston --test_size=0.2 --seed=0 --device=cuda:0 --epoch=10 --batch_size=1024 --lr=0.003 --option_num=5
-# Run on Moscow dataset
-python main.py --exp_type=cdm --method=sapd --datatype=OECDMoscow --test_size=0.2 --seed=0 --device=cuda:0 --epoch=10 --batch_size=1024 --lr=0.003 --option_num=5
-# Run on BIG5 dataset
-python main.py --exp_type=cdm --method=sapd --datatype=BIG5 --test_size=0.2 --seed=0 --device=cuda:0 --epoch=10 --batch_size=1024 --lr=0.003 --option_num=5
-# Run on EQSQ dataset
-python main.py --exp_type=cdm --method=sapd --datatype=EQSQ --test_size=0.2 --seed=0 --device=cuda:0 --epoch=10 --batch_size=1024 --lr=0.003 --option_num=4
+## 🚀 Getting Started
+### Installation
+Git and install with pip:
 ```
-## Experiment
-We use wandb to visualization our experiment result.  
-If you prefer not to use it,you can add --wandb=False in your command to disable wandb.
+git clone https://github.com/ECNU-ILOG/inscd.git
+cd <path of code>
+pip install -e .
+```
+### Quick Example
+```
+python main.py --method=sapd --datatype=OECDSuzhou --test_size=0.2 --seed=0 --device=cuda:1 --epoch=10 --batch_size=1024 --lr=0.003 --option_num=5 --gnn_type=LightGCN
+```
+or
+```
+python main.py --method=sapd --datatype=OECDSuzhou --test_size=0.2 --seed=0 --device=cuda:1 --epoch=10 --batch_size=1024 --lr=0.003 --option_num=5 --gnn_type=GraphSAGE
+```
+
+## 👏 Experiment
+We use swanlab to visualization our experiment result.  
+If you prefer not to use it,you can add --swanlab=False in your command to disable swanlab.
+
+
