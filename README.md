@@ -8,6 +8,8 @@ East China Normal University
 <img src='asset/SAPD.svg' width=900 />
 </div>
 🎉Welcome to SAPD, this is a comprehensive repository specializing in **A Style-Aware Polytomous Diagnostic Model for Individual Traits** published in ECAI 2025.
+
+
 ## Requirements
 Before run the SAPD,you need to install the following dependencies via pip or conda.
 ```shell
@@ -23,6 +25,8 @@ numpy==1.23.5
 pandas==1.5.2
 EduCDM==0.0.13
 ```
+
+
 ## Usage guide
 To run the SAPD,you need to enter the SAPD directory.  
 Unzip SAPD.zip, enter the directory named SAPD, and then execute the command in the terminal.  
