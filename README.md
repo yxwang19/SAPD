@@ -5,8 +5,8 @@
 
 East China Normal University
 
-<a href='https://github.com/ECNU-ILOG/ORCDF'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
-<a href='https://github.com/ECNU-ILOG/ORCDF/blob/main/ORCDF-KDD-2024.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
+<a href='https://github.com/yxwang19/SAPD'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+<a href='https://github.com/yxwang19/SAPD/SAPD-ECAI2025.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
 
 
 <img src='asset/SAPD.svg' width=900 />
@@ -45,6 +45,7 @@ cd <path of code>
 pip install -e .
 ```
 ### Quick Example
+The following is a reference command. If you interested in other parameter of command,you can look into the main.py for more detail.
 ```
 python main.py --method=sapd --datatype=OECDSuzhou --test_size=0.2 --seed=0 --device=cuda:1 --epoch=10 --batch_size=1024 --lr=0.003 --option_num=5 --gnn_type=LightGCN
 ```
