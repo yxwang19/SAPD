@@ -1,6 +1,5 @@
 <div align='center'>
-<h1 align="center">✨✨A Style-Aware Polytomous Diagnostic Model for Individual Traits✨✨</h1>
- <h1 align="center">Individual Traits</h1>
+<h1>A Style-Aware Polytomous Diagnostic Model for Individual Traits</h1>
 
 <a href='https://aiedu.ecnu.edu.cn/'>Shanghai Institute of AI Education</a>
 
@@ -8,9 +7,7 @@ East China Normal University
 
 <img src='asset/SAPD.svg' width=900 />
 </div>
-
-## SAPD
-Here is the comprehensive guide about source code usage of ***A Style-Aware Polytomous Diagnostic Model for Individual Traits***(AKA SAPD)
+🎉Welcome to SAPD, this is a comprehensive repository specializing in **A Style-Aware Polytomous Diagnostic Model for Individual Traits** published in ECAI 2025.
 ## Requirements
 Before run the SAPD,you need to install the following dependencies via pip or conda.
 ```shell
