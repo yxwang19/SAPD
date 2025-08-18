@@ -1,5 +1,5 @@
 <div align='center'>
-<h1>:sparkles: A Style-Aware Polytomous Diagnostic Model for :sparkles: Individual Traits</h1>
+<h1 align="center">✨ A Style-Aware Polytomous Diagnostic Model for Individual Traits ✨</h1>
 
 <a href='https://aiedu.ecnu.edu.cn/'>Shanghai Institute of AI Education</a>
 
