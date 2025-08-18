@@ -1,3 +1,13 @@
+<div align='center'>
+<h1>A Style-Aware Polytomous Diagnostic Model for Individual Traits</h1>
+
+<a href='https://aiedu.ecnu.edu.cn/'>Shanghai Institute of AI Education</a>
+
+East China Normal University
+
+<img src='asset/SAPD.pdf' width=700 />
+</div>
+
 ## SAPD
 Here is the comprehensive guide about source code usage of ***A Style-Aware Polytomous Diagnostic Model for Individual Traits***(AKA SAPD)
 ## Requirements
