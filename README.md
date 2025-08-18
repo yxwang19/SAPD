@@ -5,10 +5,15 @@
 
 East China Normal University
 
+<a href='https://github.com/ECNU-ILOG/ORCDF'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+<a href='https://github.com/ECNU-ILOG/ORCDF/blob/main/ORCDF-KDD-2024.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
+
+
 <img src='asset/SAPD.svg' width=900 />
 </div>
 
 🎉 Welcome to SAPD, this is a comprehensive repository specializing in ***A Style-Aware Polytomous Diagnostic Model for Individual Traits*** published in ECAI 2025.
+
 
 
 ## Requirements
