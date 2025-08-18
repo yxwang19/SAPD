@@ -1,0 +1,11 @@
+dgl==1.1.0+cu118
+numpy==2.2.5
+pandas==2.2.3
+scikit_learn==1.6.1
+scipy==1.15.2
+torch==2.0.0+cu118
+tqdm==4.67.1
+swanlab=0.6.6
+numpy==1.23.5
+pandas==1.5.2
+EduCDM==0.0.13
