@@ -1,6 +1,6 @@
 ## SAPD
 Here is the comprehensive guide about source code usage of ***A Style-Aware Polytomous Diagnostic Model for Individual Traits***(AKA SAPD)
-## Requirement
+## Requirements
 Before run the SAPD,you need to install the following dependencies via pip or conda.
 ```shell
 dgl==1.1.0+cu118
@@ -10,7 +10,7 @@ scikit_learn==1.6.1
 scipy==1.15.2
 torch==2.0.0+cu118
 tqdm==4.67.1
-wandb==0.15.2
+swanlab=0.6.6
 numpy==1.23.5
 pandas==1.5.2
 EduCDM==0.0.13
