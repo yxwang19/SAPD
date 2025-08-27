@@ -3,9 +3,9 @@
 # A Style-Aware Polytomous Diagnostic Model for Individual Traits
 
 **Yixuan Wang<sup>a</sup>, Jiale Feng<sup>a</sup>, Yue Huang<sup>a</sup>, Xuruo Pan<sup>a</sup>,
-Zhongjing Huang<sup>b, *</sup>, Zhi Liu<sup>a, c</sup>, and
+Zhongjing Huang<sup>b, *</sup>, Zhi Liu<sup>a, c</sup> and
 Hong Qian<sup>a, d, *</sup>**<br>
-<small>(<sup>*</sup>Corresponding authors)</small><br>
+<small>(*Corresponding authors)</small><br>
 <sup>a</sup> Shanghai Institute of AI for Education, East China Normal University, Shanghai, China<br>
 <sup>b</sup> Faculty of Education, East China Normal University, Shanghai, China<br>
 <sup>c</sup> Shanghai Innovation Institute, Shanghai, China<br>
