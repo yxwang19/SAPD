@@ -27,6 +27,7 @@ Diagnostic models aim to precisely infer individuals' cognitive or non-cognitive
 
 <img src='asset/SAPD.svg' width=900 />
 </div>
+To model the ordinal nature of Likert-scale responses, SAPD introduces the Ordinal Option Graph (OOG), which explicitly encodes the ordered relationships among options. To address individual response style bias, SAPD incorporates two complementary components: the Style-Aware Relational Graph (SARG), which implicitly encodes personalized patterns through high-order interactions, and the Response Style Corrector (RSC), which explicitly adjusts for style bias during inference. We also detail the training objective, including the composite loss and optimization strategy.
 
 ## 📖 Requirements
 ```shell
@@ -70,6 +71,7 @@ If you prefer not to use it,you can add --swanlab=False in your command to disab
 Yixuan Wang, Jiale Feng, Yue Huang, Xuruo Pan, Zhongjing Huang, Zhi Liu and Hong Qian "A Style-Aware Polytomous Diagnostic Model for Individual Traits." In Proceedings of the 28th European Conference on Artificial Intelligence (ECAI), 2025.
 
 ## Bibtex
+```bibtex
 @inproceedings{wang2025ecai,
 author = {Yixuan Wang, Jiale Feng, Yue Huang, Xuruo Pan, Zhongjing Huang, Zhi Liu and Hong Qian},
 booktitle = {Proceedings of the 28th European Conference on Artificial Intelligence},
