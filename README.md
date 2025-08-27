@@ -15,8 +15,8 @@ Hong Qian<sup>a, d, *</sup>**<br>
 <a href='paper/main.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
 
 
+🎉 Welcome to SAPD, this is a comprehensive repository specializing in **A Style-Aware Polytomous Diagnostic Model for Individual Traits**<br> published in ECAI 2025.
 </div>
-🎉 Welcome to SAPD, this is a comprehensive repository specializing in **A Style-Aware Polytomous Diagnostic Model for Individual Traits** published in ECAI 2025.
 
 
 ## 🔔 Abstract
