@@ -70,15 +70,10 @@ Yixuan Wang, Jiale Feng, Yue Huang, Xuruo Pan, Zhongjing Huang, Zhi Liu and Hong
 
 ## Bibtex
 @inproceedings{wang2025ecai,
-
 author = {Yixuan Wang, Jiale Feng, Yue Huang, Xuruo Pan, Zhongjing Huang, Zhi Liu and Hong Qian},
-
 booktitle = {Proceedings of the 28th European Conference on Artificial Intelligence},
-
 title = {A Style-Aware Polytomous Diagnostic Model for Individual Traits},
-
 year = {2025},
-
 address={Bologna, Italy}
 }
 
