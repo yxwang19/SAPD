@@ -2,7 +2,8 @@
 
 # A Style-Aware Polytomous Diagnostic Model for Individual Traits
 
-Yixuan Wang<sup>a</sup>, Jiale Feng<sup>a</sup>, Yue Huang<sup>a</sup>, Xuruo Pan<sup>a</sup>, Zhongjing Huang<sup>b, *</sup>, Zhi Liu<sup>a,c</sup>, and Hong Qian<sup>a,d, *</sup> (*</sup>Corresponding authors)
+Yixuan Wang<sup>a</sup>, Jiale Feng<sup>a</sup>, Yue Huang<sup>a</sup>, Xuruo Pan<sup>a</sup>, Zhongjing Huang<sup>b, *</sup>, Zhi Liu<sup>a,c</sup>, and Hong Qian<sup>a,d, *</sup> 
+(*</sup>Corresponding authors)
 
 <sup>a</sup> Shanghai Institute of AI for Education, East China Normal University, Shanghai, China  
 <sup>b</sup> Faculty of Education, East China Normal University, Shanghai, China  
@@ -14,7 +15,7 @@ Yixuan Wang<sup>a</sup>, Jiale Feng<sup>a</sup>, Yue Huang<sup>a</sup>, Xuruo Pa
 
 
 </div>
-🎉 Welcome to SAPD, this is a comprehensive repository specializing in ***A Style-Aware Polytomous Diagnostic Model for Individual Traits*** published in ECAI 2025.
+🎉 Welcome to SAPD, this is a comprehensive repository specializing in **A Style-Aware Polytomous Diagnostic Model for Individual Traits** published in ECAI 2025.
 
 
 ## 🔔 Abstract
