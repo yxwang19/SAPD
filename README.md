@@ -3,8 +3,6 @@
 # A Style-Aware Polytomous Diagnostic Model for Individual Traits
 
 Yixuan Wang<sup>a</sup>, Jiale Feng<sup>a</sup>, Yue Huang<sup>a</sup>, Xuruo Pan<sup>a</sup>, Zhongjing Huang<sup>b, *</sup>, Zhi Liu<sup>a,c</sup>, and Hong Qian<sup>a,d, *</sup>
-
-
 (\*Corresponding authors)
 
 
@@ -13,8 +11,8 @@ Yixuan Wang<sup>a</sup>, Jiale Feng<sup>a</sup>, Yue Huang<sup>a</sup>, Xuruo Pa
 <sup>c</sup> Shanghai Innovation Institute, Shanghai, China  
 <sup>d</sup> Key Laboratory of Advanced Theory and Application in Statistics and Data Science-MOE, East China Normal University, Shanghai, China
 
-<a href='https://github.com/yxwang19/SAPD/paper/main.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
 <a href='https://github.com/yxwang19/SAPD'><img src='https://img.shields.io/badge/Project-Page-green'></a>
+<a href='paper/main.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
 
 
 </div>
