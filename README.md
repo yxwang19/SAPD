@@ -1,18 +1,22 @@
-<div align='center'>
-<h1>A Style-Aware Polytomous Diagnostic Model for Individual Traits</h1>
+<div align="center">
 
-<a href='https://aiedu.ecnu.edu.cn/'>Shanghai Institute of AI Education</a>
+# A Style-Aware Polytomous Diagnostic Model for Individual Traits
 
-East China Normal University
+**Yixuan Wang<sup>a</sup>, Jiale Feng<sup>a</sup>, Yue Huang<sup>a</sup>, Xuruo Pan<sup>a</sup>, Zhongjing Huang<sup>b, *</sup>, Zhi Liu<sup>a,c</sup>, and Hong Qian<sup>a,d, *</sup>**
+**(*Correspondence )**
 
-<a href='https://github.com/yxwang19/SAPD'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
-<a href='https://github.com/yxwang19/SAPD/SAPD-ECAI2025.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
+<sup>a</sup> Shanghai Institute of AI for Education, East China Normal University, Shanghai, China  
+<sup>b</sup> Faculty of Education, East China Normal University, Shanghai, China  
+<sup>c</sup> Shanghai Innovation Institute, Shanghai, China  
+<sup>d</sup> Key Laboratory of Advanced Theory and Application in Statistics and Data Science-MOE, East China Normal University, Shanghai, China
 
-
-<img src='asset/SAPD.svg' width=900 />
-</div>
+*Corresponding authors:*  
+[zjhuang@dedu.ecnu.edu.cn](mailto:zjhuang@dedu.ecnu.edu.cn); [hqian@cs.ecnu.edu.cn](mailto:hqian@cs.ecnu.edu.cn)
 
 🎉 Welcome to SAPD, this is a comprehensive repository specializing in ***A Style-Aware Polytomous Diagnostic Model for Individual Traits*** published in ECAI 2025.
+
+</div>
+
 
 
 ## 🔔 Abstract
@@ -34,7 +38,14 @@ numpy==1.23.5
 pandas==1.5.2
 EduCDM==0.0.13
 ```
+ ## Architecture
+ <div align="center">
 
+<a href='https://github.com/yxwang19/SAPD/paper/main.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
+
+
+<img src='asset/SAPD.svg' width=900 />
+</div>
 
 ## 🚀 Getting Started
 ### Installation
@@ -57,5 +68,17 @@ python main.py --method=sapd --datatype=OECDSuzhou --test_size=0.2 --seed=0 --de
 ## 👏 Experiment
 We use swanlab to visualization our experiment result.  
 If you prefer not to use it,you can add --swanlab=False in your command to disable swanlab.
+
+## 💭 Reference 
+Yixuan Wang, Jiale Feng, Yue Huang, Xuruo Pan, Zhongjing Huang, Zhi Liu and Hong Qian "A Style-Aware Polytomous Diagnostic Model for Individual Traits." In Proceedings of the 28th European Conference on Artificial Intelligence (ECAI), 2025.
+
+## Bibtex
+@inproceedings{wang2025ecai,
+author = {Yixuan Wang, Jiale Feng, Yue Huang, Xuruo Pan, Zhongjing Huang, Zhi Liu and Hong Qian},
+booktitle = {Proceedings of the 28th European Conference on Artificial Intelligence},
+title = {A Style-Aware Polytomous Diagnostic Model for Individual Traits},
+year = {2025},
+address={Bologna, Italy}
+}
 
 
