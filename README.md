@@ -2,8 +2,7 @@
 
 # A Style-Aware Polytomous Diagnostic Model for Individual Traits
 
-**Yixuan Wang<sup>a</sup>, Jiale Feng<sup>a</sup>, Yue Huang<sup>a</sup>, Xuruo Pan<sup>a</sup>, Zhongjing Huang<sup>b, *</sup>, Zhi Liu<sup>a,c</sup>, and Hong Qian<sup>a,d, *</sup>**
-**(*Correspondence )**
+Yixuan Wang<sup>a</sup>, Jiale Feng<sup>a</sup>, Yue Huang<sup>a</sup>, Xuruo Pan<sup>a</sup>, Zhongjing Huang<sup>b, *</sup>, Zhi Liu<sup>a,c</sup>, and Hong Qian<sup>a,d, *</sup>
 
 <sup>a</sup> Shanghai Institute of AI for Education, East China Normal University, Shanghai, China  
 <sup>b</sup> Faculty of Education, East China Normal University, Shanghai, China  
@@ -13,16 +12,21 @@
 *Corresponding authors:*  
 [zjhuang@dedu.ecnu.edu.cn](mailto:zjhuang@dedu.ecnu.edu.cn); [hqian@cs.ecnu.edu.cn](mailto:hqian@cs.ecnu.edu.cn)
 
-🎉 Welcome to SAPD, this is a comprehensive repository specializing in ***A Style-Aware Polytomous Diagnostic Model for Individual Traits*** published in ECAI 2025.
-
 </div>
-
+🎉 Welcome to SAPD, this is a comprehensive repository specializing in ***A Style-Aware Polytomous Diagnostic Model for Individual Traits*** published in ECAI 2025.
 
 
 ## 🔔 Abstract
 Diagnostic models aim to precisely infer individuals' cognitive or non-cognitive competencies from their response logs, such as mathematical or social-emotional skills. While deep learning shows success in cognitive diagnosis, it remains underexplored in the equally important area of non-cognitive trait diagnosis. Accurate non-cognitive trait estimation is critical for individuals' development. Unlike cognitive assessments using right or wrong responses, non-cognitive trait assessments typically use subjective Likert-scale items with ordinal polytomous options to reflect latent trait levels. Furthermore, individual response styles, such as tendencies toward higher or lower options, introduce bias in trait inference, causing estimations that deviate from true trait levels. Thus, maintaining options ordinal semantic structure and mitigating the response style bias in trait estimation are two major challenges for accurate trait diagnosis. To address these issues, this paper proposes a Style-Aware Polytomous Diagnosis (SAPD) model. Specifically, to capture the ordinal semantics of response options, SAPD constructs an Ordinal Option Graph (OOG) that explicitly encodes the ordinal relationship among polytomous options, where higher options reflect higher latent trait levels. To mitigate the bias caused by individual response styles, we first design a Style-Aware Relational Graph (SARG), a heterogeneous graph that integrates multiple interactions among participants, items, options and traits, implicitly embedding response style information within node representations. We then propose a Response Style Corrector (RSC) that explicitly captures individual response tendencies and disentangles response style bias during trait diagnosis, allowing for dynamic and adaptive correction of trait levels. Extensive experiments on five real-world datasets show that SAPD improves accuracy by an average of 4% over competitive methods. Visualization confirms SAPD effectively disentangles response style effects, leading to more accurate and interpretable trait diagnosis.
 
+## 🎓 Architecture
+ <div align="center">
 
+<a href='https://github.com/yxwang19/SAPD/paper/main.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
+
+
+<img src='asset/SAPD.svg' width=900 />
+</div>
 
 ## 📖 Requirements
 ```shell
@@ -38,14 +42,7 @@ numpy==1.23.5
 pandas==1.5.2
 EduCDM==0.0.13
 ```
- ## Architecture
- <div align="center">
-
-<a href='https://github.com/yxwang19/SAPD/paper/main.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
-
-
-<img src='asset/SAPD.svg' width=900 />
-</div>
+ 
 
 ## 🚀 Getting Started
 ### Installation
