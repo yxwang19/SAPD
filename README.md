@@ -2,15 +2,16 @@
 
 # A Style-Aware Polytomous Diagnostic Model for Individual Traits
 
-Yixuan Wang<sup>a</sup>, Jiale Feng<sup>a</sup>, Yue Huang<sup>a</sup>, Xuruo Pan<sup>a</sup>, Zhongjing Huang<sup>b, *</sup>, Zhi Liu<sup>a,c</sup>, and Hong Qian<sup>a,d, *</sup>
+Yixuan Wang<sup>a</sup>, Jiale Feng<sup>a</sup>, Yue Huang<sup>a</sup>, Xuruo Pan<sup>a</sup>, Zhongjing Huang<sup>b, *</sup>, Zhi Liu<sup>a,c</sup>, and Hong Qian<sup>a,d, *</sup> (*</sup>Corresponding authors)
 
 <sup>a</sup> Shanghai Institute of AI for Education, East China Normal University, Shanghai, China  
 <sup>b</sup> Faculty of Education, East China Normal University, Shanghai, China  
 <sup>c</sup> Shanghai Innovation Institute, Shanghai, China  
 <sup>d</sup> Key Laboratory of Advanced Theory and Application in Statistics and Data Science-MOE, East China Normal University, Shanghai, China
 
-*Corresponding authors:*  
-[zjhuang@dedu.ecnu.edu.cn](mailto:zjhuang@dedu.ecnu.edu.cn); [hqian@cs.ecnu.edu.cn](mailto:hqian@cs.ecnu.edu.cn)
+<a href='https://github.com/yxwang19/SAPD/paper/main.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
+<a href='https://github.com/yxwang19/SAPD'><img src='https://img.shields.io/badge/Paper-PDF-green'></a>
+
 
 </div>
 🎉 Welcome to SAPD, this is a comprehensive repository specializing in ***A Style-Aware Polytomous Diagnostic Model for Individual Traits*** published in ECAI 2025.
@@ -21,9 +22,6 @@ Diagnostic models aim to precisely infer individuals' cognitive or non-cognitive
 
 ## 🎓 Architecture
  <div align="center">
-
-<a href='https://github.com/yxwang19/SAPD/paper/main.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
-
 
 <img src='asset/SAPD.svg' width=900 />
 </div>
