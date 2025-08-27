@@ -3,7 +3,6 @@
 # A Style-Aware Polytomous Diagnostic Model for Individual Traits
 
 Yixuan Wang<sup>a</sup>, Jiale Feng<sup>a</sup>, Yue Huang<sup>a</sup>, Xuruo Pan<sup>a</sup>, Zhongjing Huang<sup>b, *</sup>, Zhi Liu<sup>a,c</sup>, and Hong Qian<sup>a,d, *</sup> 
-(*</sup>Corresponding authors)
 
 <sup>a</sup> Shanghai Institute of AI for Education, East China Normal University, Shanghai, China  
 <sup>b</sup> Faculty of Education, East China Normal University, Shanghai, China  
@@ -70,10 +69,15 @@ Yixuan Wang, Jiale Feng, Yue Huang, Xuruo Pan, Zhongjing Huang, Zhi Liu and Hong
 
 ## Bibtex
 @inproceedings{wang2025ecai,
+
 author = {Yixuan Wang, Jiale Feng, Yue Huang, Xuruo Pan, Zhongjing Huang, Zhi Liu and Hong Qian},
+
 booktitle = {Proceedings of the 28th European Conference on Artificial Intelligence},
+
 title = {A Style-Aware Polytomous Diagnostic Model for Individual Traits},
+
 year = {2025},
+
 address={Bologna, Italy}
 }
 
