@@ -2,7 +2,8 @@
 
 # A Style-Aware Polytomous Diagnostic Model for Individual Traits
 
-Yixuan Wangᵃ, Jiale Fengᵃ, Yue Huangᵃ, Xuruo Panᵃ, Zhongjing Huangᵇ\*, Zhi Liuᵃ,ᶜ, and Hong Qianᵃ,ᵈ\* 
+Yixuan Wangᵃ, Jiale Fengᵃ, Yue Huangᵃ, Xuruo Panᵃ, Zhongjing Huangᵇ\*, Zhi Liuᵃ,ᶜ, and Hong Qianᵃ,ᵈ\* .
+
 (\*Corresponding authors)
 
 
