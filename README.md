@@ -15,9 +15,10 @@ Hong Qian<sup>a, d, *</sup>**<br>
 <a href='paper/main.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
 
 
-🎉 Welcome to SAPD, this is a comprehensive repository specializing in **A Style-Aware Polytomous Diagnostic Model for Individual Traits**<br> published in ECAI 2025.
 </div>
-
+🎉 Welcome to SAPD, this is a comprehensive repository specializing in
+**A Style-Aware Polytomous Diagnostic Model for Individual Traits**  
+published in ECAI 2025.
 
 ## 🔔 Abstract
 Diagnostic models aim to precisely infer individuals' cognitive or non-cognitive competencies from their response logs, such as mathematical or social-emotional skills. While deep learning shows success in cognitive diagnosis, it remains underexplored in the equally important area of non-cognitive trait diagnosis. Accurate non-cognitive trait estimation is critical for individuals' development. Unlike cognitive assessments using right or wrong responses, non-cognitive trait assessments typically use subjective Likert-scale items with ordinal polytomous options to reflect latent trait levels. Furthermore, individual response styles, such as tendencies toward higher or lower options, introduce bias in trait inference, causing estimations that deviate from true trait levels. Thus, maintaining options ordinal semantic structure and mitigating the response style bias in trait estimation are two major challenges for accurate trait diagnosis. To address these issues, this paper proposes a Style-Aware Polytomous Diagnosis (SAPD) model. Specifically, to capture the ordinal semantics of response options, SAPD constructs an Ordinal Option Graph (OOG) that explicitly encodes the ordinal relationship among polytomous options, where higher options reflect higher latent trait levels. To mitigate the bias caused by individual response styles, we first design a Style-Aware Relational Graph (SARG), a heterogeneous graph that integrates multiple interactions among participants, items, options and traits, implicitly embedding response style information within node representations. We then propose a Response Style Corrector (RSC) that explicitly captures individual response tendencies and disentangles response style bias during trait diagnosis, allowing for dynamic and adaptive correction of trait levels. Extensive experiments on five real-world datasets show that SAPD improves accuracy by an average of 4% over competitive methods. Visualization confirms SAPD effectively disentangles response style effects, leading to more accurate and interpretable trait diagnosis.
