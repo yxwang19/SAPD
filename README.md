@@ -16,6 +16,8 @@ Hong Qian<sup>a, d, *</sup>**<br>
 
 
 </div>
+<!-- markdown break: force parser to end html block -->
+
 🎉 Welcome to SAPD, this is a comprehensive repository specializing in
 **A Style-Aware Polytomous Diagnostic Model for Individual Traits**  
 published in ECAI 2025.
