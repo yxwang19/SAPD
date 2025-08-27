@@ -10,7 +10,7 @@ Yixuan Wang<sup>a</sup>, Jiale Feng<sup>a</sup>, Yue Huang<sup>a</sup>, Xuruo Pa
 <sup>d</sup> Key Laboratory of Advanced Theory and Application in Statistics and Data Science-MOE, East China Normal University, Shanghai, China
 
 <a href='https://github.com/yxwang19/SAPD/paper/main.pdf'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a>
-<a href='https://github.com/yxwang19/SAPD'><img src='https://img.shields.io/badge/Paper-PDF-green'></a>
+<a href='https://github.com/yxwang19/SAPD'><img src='https://img.shields.io/badge/Project-Page-green'></a>
 
 
 </div>
